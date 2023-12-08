@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="happyBIRTHDAY.css">
+    <link rel="shortcut icon" href="./IMG_20230721_154930_649.jpg" type="image/x-icon">
+    <title>happy birthday</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+
+
+h2{
+    display: flex;
+    font-size: 7.5vw;
+    color: transparent;
+}
+h2 span{
+    animation: chhath 5s linear infinite;
+    animation-delay: calc(0.1s * var(--i));
+}
+@keyframes chhath {
+    0%{
+        color: rgb(192, 192, 9);
+        filter: blur(1px) hue-rotate(0deg);
+
+        text-shadow: 0 0 10px  rgb(16, 134, 207),
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 100px #00b3ff,
+        0 0 300px #00b3ff,
+        0 0 400px #00b3ff,
+        0 0 500px #00b3ff,
+    }
+    70% ,90% {
+        color: #910c0c;
+        filter: blur(1px) hue-rotate(360deg);
+        text-shadow: 0 0 10px  #00b3ff,
+        0 0 20px #00ffbf,
+        0 0 40px #00ff73,
+        0 0 80px #00ff11,
+        0 0 100px #95ff00,
+        0 0 300px #eeff00,
+        0 0 400px #ff9d00,
+        0 0 500px #ff9100,
+    }
+    100%{
+        color: transparent;
+        box-shadow: none;
+        filter: blur(2px)  hue-rotate(0deg);
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <video autoplay muted loop>
+            <source src="./Fumefx_colored_smoke(1080p).mp4" type="video/mp4">
+          </video>
+
+<h2>
+    <span style="--i:1" >H</span>
+    <span style="--i:2" >A</span>
+    <span style="--i:3" >P</span>
+    <span style="--i:4" >P</span>
+    <span style="--i:5" >Y</span>
+    <span style="--i:6 ;margin-left: 5vw;" >B</span>
+    <span style="--i:7" >I</span>
+    <span style="--i:8" >R</span>
+    <span style="--i:9" >T</span>
+    <span style="--i:10" >H</span>
+    <span style="--i:11" >D</span>
+    <span style="--i:12" >A</span>
+    <span style="--i:13" >Y</span>
+    <span style="--i:14;margin-left: 5vw;" >M</span>
+    <span style="--i:15" >A</span>
+    <span style="--i:16" >N</span>
+    <span style="--i:17" >O</span>
+    <span style="--i:18" >J</span>
+    
+</h2>
+    </div>
+</body>
+</html>
